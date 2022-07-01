@@ -15,6 +15,7 @@ const theme = extendTheme({
       body: {
         bg: '',
         fontFamily: 'Poppins',
+        color: 'white',
       },
     },
   },
