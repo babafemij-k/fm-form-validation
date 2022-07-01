@@ -106,7 +106,7 @@ function App() {
             <Heading mb={'5'} size={'xl'}>
               Learn to code by watching others code.
             </Heading>
-            <Text fontSize={'md'}>
+            <Text fontSize={'md'} fontFamily={'Poppins'}>
               See how experienced developers solve problems in real-time.
               Watching scripted tutorials is great, but understanding how
               developers think is invaluable.
@@ -123,7 +123,12 @@ function App() {
               boxShadow={'0 8px rgba(0, 0, 0, .15)'}
               mb={'10'}
             >
-              <Text textAlign={'center'} fontSize={'sm'} fontWeight={'600'}>
+              <Text
+                textAlign={'center'}
+                fontSize={'sm'}
+                fontWeight={'600'}
+                fontFamily={'Poppins'}
+              >
                 <b>Try it free 7 days</b> then $20/mo. thereafter
               </Text>
             </Box>
@@ -143,6 +148,7 @@ function App() {
                   bgColor={'green.300'}
                   textTransform={'capitalize'}
                   boxShadow={'md'}
+                  fontFamily={'Poppins'}
                 >
                   Signed In!
                 </Badge>
@@ -163,6 +169,7 @@ function App() {
                     fontWeight={'semibold'}
                     _hover={{}}
                     isInvalid={formErrors.firstName}
+                    fontFamily={'Poppins'}
                   />
                   <InputRightElement
                     children={
@@ -196,6 +203,7 @@ function App() {
                     color={'blackAlpha.800'}
                     _hover={{}}
                     isInvalid={formErrors.lastName}
+                    fontFamily={'Poppins'}
                   />
                   <InputRightElement
                     children={
@@ -261,6 +269,7 @@ function App() {
                     _hover={{}}
                     isInvalid={formErrors.password}
                     type={showPassword ? 'text' : 'password'}
+                    fontFamily={'Poppins'}
                   />
                   <InputRightElement mr={10}>
                     <Button
@@ -303,6 +312,7 @@ function App() {
                   }}
                   onClick={handleSubmit}
                   mt={'7'}
+                  fontFamily={'Poppins'}
                 >
                   CLAIM YOUR FREE TRIAL
                 </Button>
