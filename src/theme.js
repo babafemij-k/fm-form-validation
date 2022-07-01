@@ -14,7 +14,7 @@ const theme = extendTheme({
     global: {
       body: {
         bg: '',
-        fontFamily: 'Poppins',
+        fontFamily: '"Poppins", san-serif',
         color: 'white',
       },
     },
