@@ -100,6 +100,7 @@ function App() {
             alignItems={['center', 'center', 'flex-start', 'flex-start']}
             textAlign={['center', 'center', 'unset', 'unset']}
             width={'100%'}
+            color={'white'}
           >
             <Heading mb={'5'} size={'xl'}>
               Learn to code by watching others code.
