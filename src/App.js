@@ -89,6 +89,7 @@ function App() {
         width="100%"
         px={['5%', '5%', '15%', '15%']}
         py={['20%', '20%', '10%', '10%']}
+        fontFamily={'Poppins'}
       >
         <Flex
           direction={['column', 'column', 'row', 'row']}
